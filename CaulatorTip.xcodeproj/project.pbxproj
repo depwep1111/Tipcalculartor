@@ -1,0 +1,530 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6FD1311F1EDBDA4B001BA571 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FD1311E1EDBDA4B001BA571 /* AppDelegate.swift */; };
+		6FD131211EDBDA4B001BA571 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FD131201EDBDA4B001BA571 /* ViewController.swift */; };
+		6FD131241EDBDA4B001BA571 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6FD131221EDBDA4B001BA571 /* Main.storyboard */; };
+		6FD131261EDBDA4B001BA571 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6FD131251EDBDA4B001BA571 /* Assets.xcassets */; };
+		6FD131291EDBDA4B001BA571 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6FD131271EDBDA4B001BA571 /* LaunchScreen.storyboard */; };
+		6FD131341EDBDA4B001BA571 /* CaulatorTipTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FD131331EDBDA4B001BA571 /* CaulatorTipTests.swift */; };
+		6FD1313F1EDBDA4B001BA571 /* CaulatorTipUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FD1313E1EDBDA4B001BA571 /* CaulatorTipUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6FD131301EDBDA4B001BA571 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6FD131131EDBDA4B001BA571 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6FD1311A1EDBDA4B001BA571;
+			remoteInfo = CaulatorTip;
+		};
+		6FD1313B1EDBDA4B001BA571 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6FD131131EDBDA4B001BA571 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6FD1311A1EDBDA4B001BA571;
+			remoteInfo = CaulatorTip;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6FD1311B1EDBDA4B001BA571 /* CaulatorTip.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CaulatorTip.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6FD1311E1EDBDA4B001BA571 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6FD131201EDBDA4B001BA571 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6FD131231EDBDA4B001BA571 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6FD131251EDBDA4B001BA571 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6FD131281EDBDA4B001BA571 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6FD1312A1EDBDA4B001BA571 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6FD1312F1EDBDA4B001BA571 /* CaulatorTipTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CaulatorTipTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6FD131331EDBDA4B001BA571 /* CaulatorTipTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaulatorTipTests.swift; sourceTree = "<group>"; };
+		6FD131351EDBDA4B001BA571 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6FD1313A1EDBDA4B001BA571 /* CaulatorTipUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CaulatorTipUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6FD1313E1EDBDA4B001BA571 /* CaulatorTipUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaulatorTipUITests.swift; sourceTree = "<group>"; };
+		6FD131401EDBDA4B001BA571 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6FD131181EDBDA4B001BA571 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6FD1312C1EDBDA4B001BA571 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6FD131371EDBDA4B001BA571 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6FD131121EDBDA4B001BA571 = {
+			isa = PBXGroup;
+			children = (
+				6FD1311D1EDBDA4B001BA571 /* CaulatorTip */,
+				6FD131321EDBDA4B001BA571 /* CaulatorTipTests */,
+				6FD1313D1EDBDA4B001BA571 /* CaulatorTipUITests */,
+				6FD1311C1EDBDA4B001BA571 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6FD1311C1EDBDA4B001BA571 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6FD1311B1EDBDA4B001BA571 /* CaulatorTip.app */,
+				6FD1312F1EDBDA4B001BA571 /* CaulatorTipTests.xctest */,
+				6FD1313A1EDBDA4B001BA571 /* CaulatorTipUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6FD1311D1EDBDA4B001BA571 /* CaulatorTip */ = {
+			isa = PBXGroup;
+			children = (
+				6FD1311E1EDBDA4B001BA571 /* AppDelegate.swift */,
+				6FD131201EDBDA4B001BA571 /* ViewController.swift */,
+				6FD131221EDBDA4B001BA571 /* Main.storyboard */,
+				6FD131251EDBDA4B001BA571 /* Assets.xcassets */,
+				6FD131271EDBDA4B001BA571 /* LaunchScreen.storyboard */,
+				6FD1312A1EDBDA4B001BA571 /* Info.plist */,
+			);
+			path = CaulatorTip;
+			sourceTree = "<group>";
+		};
+		6FD131321EDBDA4B001BA571 /* CaulatorTipTests */ = {
+			isa = PBXGroup;
+			children = (
+				6FD131331EDBDA4B001BA571 /* CaulatorTipTests.swift */,
+				6FD131351EDBDA4B001BA571 /* Info.plist */,
+			);
+			path = CaulatorTipTests;
+			sourceTree = "<group>";
+		};
+		6FD1313D1EDBDA4B001BA571 /* CaulatorTipUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6FD1313E1EDBDA4B001BA571 /* CaulatorTipUITests.swift */,
+				6FD131401EDBDA4B001BA571 /* Info.plist */,
+			);
+			path = CaulatorTipUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6FD1311A1EDBDA4B001BA571 /* CaulatorTip */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6FD131431EDBDA4B001BA571 /* Build configuration list for PBXNativeTarget "CaulatorTip" */;
+			buildPhases = (
+				6FD131171EDBDA4B001BA571 /* Sources */,
+				6FD131181EDBDA4B001BA571 /* Frameworks */,
+				6FD131191EDBDA4B001BA571 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CaulatorTip;
+			productName = CaulatorTip;
+			productReference = 6FD1311B1EDBDA4B001BA571 /* CaulatorTip.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6FD1312E1EDBDA4B001BA571 /* CaulatorTipTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6FD131461EDBDA4B001BA571 /* Build configuration list for PBXNativeTarget "CaulatorTipTests" */;
+			buildPhases = (
+				6FD1312B1EDBDA4B001BA571 /* Sources */,
+				6FD1312C1EDBDA4B001BA571 /* Frameworks */,
+				6FD1312D1EDBDA4B001BA571 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6FD131311EDBDA4B001BA571 /* PBXTargetDependency */,
+			);
+			name = CaulatorTipTests;
+			productName = CaulatorTipTests;
+			productReference = 6FD1312F1EDBDA4B001BA571 /* CaulatorTipTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6FD131391EDBDA4B001BA571 /* CaulatorTipUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6FD131491EDBDA4B001BA571 /* Build configuration list for PBXNativeTarget "CaulatorTipUITests" */;
+			buildPhases = (
+				6FD131361EDBDA4B001BA571 /* Sources */,
+				6FD131371EDBDA4B001BA571 /* Frameworks */,
+				6FD131381EDBDA4B001BA571 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6FD1313C1EDBDA4B001BA571 /* PBXTargetDependency */,
+			);
+			name = CaulatorTipUITests;
+			productName = CaulatorTipUITests;
+			productReference = 6FD1313A1EDBDA4B001BA571 /* CaulatorTipUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6FD131131EDBDA4B001BA571 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "tran trung thanh";
+				TargetAttributes = {
+					6FD1311A1EDBDA4B001BA571 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+					};
+					6FD1312E1EDBDA4B001BA571 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 6FD1311A1EDBDA4B001BA571;
+					};
+					6FD131391EDBDA4B001BA571 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 6FD1311A1EDBDA4B001BA571;
+					};
+				};
+			};
+			buildConfigurationList = 6FD131161EDBDA4B001BA571 /* Build configuration list for PBXProject "CaulatorTip" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6FD131121EDBDA4B001BA571;
+			productRefGroup = 6FD1311C1EDBDA4B001BA571 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6FD1311A1EDBDA4B001BA571 /* CaulatorTip */,
+				6FD1312E1EDBDA4B001BA571 /* CaulatorTipTests */,
+				6FD131391EDBDA4B001BA571 /* CaulatorTipUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6FD131191EDBDA4B001BA571 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6FD131291EDBDA4B001BA571 /* LaunchScreen.storyboard in Resources */,
+				6FD131261EDBDA4B001BA571 /* Assets.xcassets in Resources */,
+				6FD131241EDBDA4B001BA571 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6FD1312D1EDBDA4B001BA571 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6FD131381EDBDA4B001BA571 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6FD131171EDBDA4B001BA571 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6FD131211EDBDA4B001BA571 /* ViewController.swift in Sources */,
+				6FD1311F1EDBDA4B001BA571 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6FD1312B1EDBDA4B001BA571 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6FD131341EDBDA4B001BA571 /* CaulatorTipTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6FD131361EDBDA4B001BA571 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6FD1313F1EDBDA4B001BA571 /* CaulatorTipUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6FD131311EDBDA4B001BA571 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6FD1311A1EDBDA4B001BA571 /* CaulatorTip */;
+			targetProxy = 6FD131301EDBDA4B001BA571 /* PBXContainerItemProxy */;
+		};
+		6FD1313C1EDBDA4B001BA571 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6FD1311A1EDBDA4B001BA571 /* CaulatorTip */;
+			targetProxy = 6FD1313B1EDBDA4B001BA571 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6FD131221EDBDA4B001BA571 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6FD131231EDBDA4B001BA571 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6FD131271EDBDA4B001BA571 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6FD131281EDBDA4B001BA571 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6FD131411EDBDA4B001BA571 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6FD131421EDBDA4B001BA571 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6FD131441EDBDA4B001BA571 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CaulatorTip/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = CandySearch.CaulatorTip;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		6FD131451EDBDA4B001BA571 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CaulatorTip/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = CandySearch.CaulatorTip;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		6FD131471EDBDA4B001BA571 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CaulatorTipTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = CandySearch.CaulatorTipTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CaulatorTip.app/CaulatorTip";
+			};
+			name = Debug;
+		};
+		6FD131481EDBDA4B001BA571 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CaulatorTipTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = CandySearch.CaulatorTipTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CaulatorTip.app/CaulatorTip";
+			};
+			name = Release;
+		};
+		6FD1314A1EDBDA4B001BA571 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = CaulatorTipUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = CandySearch.CaulatorTipUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = CaulatorTip;
+			};
+			name = Debug;
+		};
+		6FD1314B1EDBDA4B001BA571 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = CaulatorTipUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = CandySearch.CaulatorTipUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = CaulatorTip;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6FD131161EDBDA4B001BA571 /* Build configuration list for PBXProject "CaulatorTip" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6FD131411EDBDA4B001BA571 /* Debug */,
+				6FD131421EDBDA4B001BA571 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6FD131431EDBDA4B001BA571 /* Build configuration list for PBXNativeTarget "CaulatorTip" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6FD131441EDBDA4B001BA571 /* Debug */,
+				6FD131451EDBDA4B001BA571 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6FD131461EDBDA4B001BA571 /* Build configuration list for PBXNativeTarget "CaulatorTipTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6FD131471EDBDA4B001BA571 /* Debug */,
+				6FD131481EDBDA4B001BA571 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6FD131491EDBDA4B001BA571 /* Build configuration list for PBXNativeTarget "CaulatorTipUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6FD1314A1EDBDA4B001BA571 /* Debug */,
+				6FD1314B1EDBDA4B001BA571 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6FD131131EDBDA4B001BA571 /* Project object */;
+}
