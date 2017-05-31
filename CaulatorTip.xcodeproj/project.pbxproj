@@ -17,6 +17,7 @@
 		6FD1314F1EDC8455001BA571 /* HistoryTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FD1314E1EDC8455001BA571 /* HistoryTableViewController.swift */; };
 		6FD131511EDC8606001BA571 /* HistoryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FD131501EDC8606001BA571 /* HistoryTableViewCell.swift */; };
 		6FDCAB691EDC954000BDC443 /* Tip.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6FDCAB671EDC954000BDC443 /* Tip.xcdatamodeld */; };
+		6FFA07821EDE5BDD008D121E /* SettingTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FFA07811EDE5BDD008D121E /* SettingTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		6FD1314E1EDC8455001BA571 /* HistoryTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HistoryTableViewController.swift; sourceTree = "<group>"; };
 		6FD131501EDC8606001BA571 /* HistoryTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HistoryTableViewCell.swift; sourceTree = "<group>"; };
 		6FDCAB681EDC954000BDC443 /* Tip.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Tip.xcdatamodel; sourceTree = "<group>"; };
+		6FFA07811EDE5BDD008D121E /* SettingTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +110,7 @@
 				6FD1314E1EDC8455001BA571 /* HistoryTableViewController.swift */,
 				6FD131501EDC8606001BA571 /* HistoryTableViewCell.swift */,
 				6FD131221EDBDA4B001BA571 /* Main.storyboard */,
+				6FFA07811EDE5BDD008D121E /* SettingTableViewController.swift */,
 				6FD131251EDBDA4B001BA571 /* Assets.xcassets */,
 				6FD131271EDBDA4B001BA571 /* LaunchScreen.storyboard */,
 				6FD1312A1EDBDA4B001BA571 /* Info.plist */,
@@ -268,6 +271,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6FFA07821EDE5BDD008D121E /* SettingTableViewController.swift in Sources */,
 				6FD1314F1EDC8455001BA571 /* HistoryTableViewController.swift in Sources */,
 				6FDCAB691EDC954000BDC443 /* Tip.xcdatamodeld in Sources */,
 				6FD131211EDBDA4B001BA571 /* ViewController.swift in Sources */,

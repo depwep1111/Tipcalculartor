@@ -26,7 +26,7 @@ class ViewController: UIViewController {
         }
     }
     
-
+    var tip = "0";
     
     var money: Double!
     var tipAmount: Double!
@@ -34,6 +34,10 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         observeKeyboard();
+        if(tip != "0")
+        {
+            txtTipAmount.text = tip;
+        }
     }
     
     override func didReceiveMemoryWarning() {
